@@ -955,13 +955,14 @@ class WebWeixin(object):
 
 
     def _configLog(self):
-        logging.basicConfig(filename='log', level=logging.DEBUG)
+        logging.basicConfig(filename='{0}/log'.format(self.saveFolder), level=logging.DEBUG)
         if not sys.platform.startswith('win'):
             import coloredlogs
             coloredlogs.install(level='DEBUG')
 
     @catchKeyboardInterrupt
     def start(self):
+        ###将日志输出到指定文件
         self._configLog()
         self._echo('[*] 微信网页版 ... 开动')
         print()
@@ -1174,5 +1175,6 @@ if sys.stdout.encoding == 'cp936':
     sys.stdout = UnicodeStreamFilter(sys.stdout)
 
 if __name__ == '__main__':
+
     wx = WebWeixin(sys.argv[1], os.getpid())
     wx.start()
