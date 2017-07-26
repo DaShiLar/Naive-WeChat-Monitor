@@ -105,7 +105,7 @@ def start_process():
 
     ##如果当前用户有进程还在运行，则不允许开始新的进程
     if not controller.startNewProcessPermission(current_user.user_id):
-        flash("对不起，你目前还处于登录状态，请先点击'结束'后再重新开始")
+        flash("对不起，你目前还处于信息托管状态，请先点击'结束托管'后再重新开始托管")
         return render_template('index.html')
 
     wechatProcess = Popen('python3 weixin_dev.py ' + current_user.user_id, shell=True)
