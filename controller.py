@@ -1,6 +1,7 @@
 from database import db_session
 from models import User, Process, START, SCANNED, END, convertTime
 import time
+import os
 
 def verify_password(user_id, password):
     query = db_session.query(User)
@@ -51,23 +52,19 @@ def scanProcess(process_id):
 
 def endProcess(user_id):
     query = db_session.query(Process)
-    result = query.filter(Process.user_id==user_id).filter(Process.status!=END).first()
-    result.status = END
-    result.end_time = convertTime(time.time())
+    results = query.filter(Process.user_id==user_id).all()
+    ##找出属于这个用户的所有进程，然后一个一个判断是否进程存在，存在就杀掉,不存在抛出异常继续
+
+    for result in results:
+        try:
+            os.kill(result.process_id, 0)
+        except OSError:
+            continue
+        else:
+            result.status = END
+            result.end_time = convertTime(time.time())
+
     db_session.commit()
-
-
-def changeStatusOfProcess(user_id, status):
-    query = db_session.query(Process)
-    result = query.get(user_id)
-    result.status = status
-    db_session.commit()
-
-
-def getProcessId(user_id):
-    query = db_session.query(Process)
-    result = query.filter(Process.user_id == user_id).filter(Process.status == SCANNED).first()
-    return result.process_id
 
 
 def checkWhetherScanned(user_id):

@@ -139,9 +139,6 @@ def check():
 @app.route('/kill_process')
 @login_required
 def kill_processs():
-    process_id = controller.getProcessId(current_user.user_id)
-    os.kill(process_id, 9)
-    print("process {0} has been killed".format(process_id))
     controller.endProcess(current_user.user_id)
     return render_template("index.html")
 
