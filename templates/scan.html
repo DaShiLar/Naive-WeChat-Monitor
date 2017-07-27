@@ -24,7 +24,7 @@
         });
 
 {#防止图片缓存#}
-        document.write('<img id="qrcode" src="static/{{ current_user.user_id }}/qrcode/qrcode.jpg?'+Math.random()+'"/>');
+        document.write('<img id="qrcode" src="static/user/{{ current_user.user_id }}/qrcode/qrcode.jpg?'+Math.random()+'"/>');
     </script>
 </head>
 <body>

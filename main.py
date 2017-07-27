@@ -14,7 +14,7 @@ import controller
 
 app = Flask(__name__)
 
-saved_directory = os.path.dirname(os.path.abspath(__file__)) + '/static'
+saved_directory = os.path.dirname(os.path.abspath(__file__)) + '/static/user'
 
 
 

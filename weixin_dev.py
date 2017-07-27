@@ -143,7 +143,7 @@ class WebWeixin(object):
         self.user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36'
         self.interactive = False
         self.autoOpen = True     ##收到图片视频等文件是否自动打开
-        self.saveFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', self.user_id)     ##在当前目录位置建立一个saved文件夹
+        self.saveFolder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'user', self.user_id)
         self.saveSubFolders = {'webwxgeticon': 'icons', 'webwxgetheadimg': 'headimgs', 'webwxgetmsgimg': 'msgimgs',
                                'webwxgetvideo': 'videos', 'webwxgetvoice': 'voices', '_showQRCodeImg': 'qrcodes'}
         self.appid = 'wx782c26e4c19acffb'
@@ -1005,13 +1005,13 @@ class WebWeixin(object):
 
 
         ##得到使用者的整体信息
-        with open('./static/{0}/ContactList.json'.format(self.user_id), 'w') as fp:
+        with open('{0}/ContactList.json'.format(self.saveFolder), 'w') as fp:
             fp.write(json.dumps(self.ContactList))
 
-        with open('./static/{0}/GroupList.json'.format(self.user_id), 'w') as fp:
+        with open('{0}/GroupList.json'.format(self.saveFolder), 'w') as fp:
             fp.write(json.dumps(self.GroupList))
 
-        with open('./static/{0}/GroupMemberList.json'.format(self.user_id), 'w') as fp:
+        with open('{0}/GroupMemberList.json'.format(self.saveFolder), 'w') as fp:
             fp.write(json.dumps(self.GroupMemeberList))
 
 
