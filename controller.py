@@ -57,12 +57,11 @@ def endProcess(user_id):
 
     for result in results:
         try:
+            result.status = END
+            result.end_time = convertTime(time.time())
             os.kill(result.process_id, 0)
         except OSError:
             continue
-        else:
-            result.status = END
-            result.end_time = convertTime(time.time())
 
     db_session.commit()
 

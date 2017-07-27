@@ -108,7 +108,7 @@ def start_process():
         flash("对不起，你目前还处于信息托管状态，请先点击'结束托管'后再重新开始托管")
         return render_template('index.html')
 
-    wechatProcess = Popen('python3 weixin_dev.py ' + current_user.user_id, shell=True)
+    wechatProcess = Popen('python3.5 weixin_dev.py ' + current_user.user_id, shell=True)
     controller.addNewProcess(current_user.user_id, wechatProcess.pid)
 
 
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     database.init_db()
     from werkzeug.contrib.fixers import ProxyFix
     app.wsgi_app = ProxyFix(app.wsgi_app)
-    app.run(debug=False)
+    app.run(debug=False, host="0.0.0.0")
 
 
 
