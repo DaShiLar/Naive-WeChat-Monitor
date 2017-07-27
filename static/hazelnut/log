@@ -1,0 +1,680 @@
+DEBUG:root:[*] 微信网页版 ... 开动
+DEBUG:root:[*] 正在获取 uuid ... ... 成功
+DEBUG:root:[*] 微信网页版 ... 开动
+DEBUG:root:[*] 正在登录 ... ... 成功
+DEBUG:root:[*] 微信初始化 ... ... 成功
+DEBUG:root:[*] 开启状态通知 ... ... 成功
+DEBUG:root:[*] 获取联系人 ... ... 成功
+DEBUG:root:[*] 获取群 ... ... 成功
+DEBUG:root:[*] 微信网页版 ... 开动
+DEBUG:root:[*] 进入消息监听模式 ... 成功
+DEBUG:root:[*] 进行同步线路测试 ... ... 成功
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1352832500298082163 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 微信呢
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:Saved file: /root/WeChatMonitor/static/hazelnut/msgimgs/img_2328659736941521693.jpg
+INFO:root:2328659736941521693 |再也没有豆各庄捷安特了| js -> GROUP: 再也没有豆各庄捷安特了 发送了一张图片: /root/WeChatMonitor/static/hazelnut/msgimgs/img_2328659736941521693.jpg
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4153969900328351297 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 路总都有了，还买呀
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5706544627490402846 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 我也到不了
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1425029972893987345 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 我就看看
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2700807990649582874 |再也没有豆各庄捷安特了| js -> GROUP: 找到他的俩本书[愉快]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6367418196766856092 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 凑凑热闹
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2046009460047556419 |再也没有豆各庄捷安特了| 一只真诚的<span class="emoji emoji1f411"></span> -> GROUP: 路总现在去吗
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1088554411330969089 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 不去。。。
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:726200811803894733 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 之前好像看到有一款镀膜的还能全天候变色
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5417309676832982167 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 下班去。。。
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1901397912320549560 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 那是什么型号来的
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6043736845111826178 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: <span class="emoji emoji1f639"></span> 
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8110782954410983500 |再也没有豆各庄捷安特了| 洋神粉丝－编号1234 -> GROUP: 是正品吗？
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8242014962979138263 |再也没有豆各庄捷安特了| 洋神粉丝－编号1234 -> GROUP: 这么便宜
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5398143030742192417 |大栅栏小程序| hazelnut -> Yang Chen @ Fudan: [害羞][害羞]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4903038877644203039 |大栅栏小程序| hazelnut -> GROUP: www.hazelnutsgz.com:5000
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:14600613566910970 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 翘班去
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:813778151889886407 |再也没有豆各庄捷安特了| 小鳝鳝 -> GROUP: 翘！
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5325407930918290039 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 化工路在哪
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1048102544239844381 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 5点下班，到那儿估计来不及吧。。
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7745135160199985317 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 去完Oakley去老万店里扫货
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5044482344965483360 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 多完美
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:840793257062104449 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 然后空手而归
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6737464072801381748 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 大概就是我的状态
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:268374694795721601 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 5点下班，50巡航过去
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4361052647002836516 DeepTech深科技 -> hazelnut: DeepTech深科技 分享了一个链接: {"title": "\u7269\u7406\u53f2\u4e0a\u9996\u4efd\u201c\u62d3\u6251\u56fe\u9274\u201d\uff0c\u94fa\u5e73\u79d1\u5b66\u5bb6\u5bfb\u627e\u62d3\u6251\u7edd\u7f18\u4f53\u4e4b\u8def", "url": "http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649534408&amp;idx=1&amp;sn=d4aafd723a4611f72c35b1085d60d939&amp;chksm=876bbbd1b01c32c7d3da2daa30fa390ff2b1bbf71b8cdfff58c3610a1435fc4f09d0f9455864&amp;scene=0#rd", "description": "\u4e0a\u5468\uff0c\u300aNature\u300b\u520a\u767b\u7684\u4e00\u7bc7\u8bba\u6587\u5c31\u4e3a\u6211\u4eec\u5c55\u793a\u4e86\u4e00\u4efd\u610f\u4e49\u6df1\u8fdc\u7684\u201c\u62d3\u6251\u56fe\u9274\u201d\uff0c\u4ece\u539f\u7406\u4e0a\u63ed\u793a\u4e86\u54ea\u4e9b\u6750\u6599\u4f1a\u5177\u6709\u62d3\u6251\u6548\u5e94\u3002", "appname": "DeepTech\u6df1\u79d1\u6280"}
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5910686663836040482 |再也没有豆各庄捷安特了| 小鳝鳝 -> GROUP: 50巡航！
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8247852365435609809 |再也没有豆各庄捷安特了| 小鳝鳝 -> GROUP: 再也没有豆各庄捷安特了 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/RmMZ8bjfYwVJoIT589rj6t8KZqSmfcTLqGz4ZhWL3DA2CEoaWorF0Gooq9MzUn9t/
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6396868145484929525 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 顺便吃个豪门饺子
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6746416539899701221 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: [皱眉]话说我都有Oakley了，我还过去干嘛
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2188843618544084213 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: [奸笑]快求求我 没追我现在就去呢
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5494151049827639363 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 多完美
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5822322049963136442 |再也没有豆各庄捷安特了| ๑°   Yuanyuan  ஐ -> GROUP: 再也没有豆各庄捷安特了 分享了一个链接: {"title": "\u60a6\u6b27\u8054\u5408\u84dd\u8272\u6781\u9650\u7279\u5356\u4f1a\uff01\u5168\u573a1\u6298\u8d77\uff01\u660e\u65e5\u5f00\u62a2\uff01", "url": "http://mp.weixin.qq.com/s?__biz=MzA4MTU1MzIyNw==&amp;mid=2650450235&amp;idx=1&amp;sn=79a028c0ccd485aacc09470eef191d35&amp;chksm=879d3b1fb0eab20930e4a22f279a35dbea901ea50c2ceffb9edd308542e450f106d2defd18e0&amp;mpshare=1&amp;scene=1&amp;srcid=0727bmTKNc82nvzAopBcfu38#rd", "description": "Oakley&amp;amp;Burton&amp;amp;Vans&amp;amp;Convers\uff01", "appname": "\u672a\u77e5"}
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3316840783033787180 |再也没有豆各庄捷安特了| 送水工❁҉҉҉҉҉҉҉҉小元 -> GROUP: 好的我也好想去[发呆]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5239781109370058417 |再也没有豆各庄捷安特了| js -> GROUP: 好吧居然你们这么着急
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:572121593603896757 |再也没有豆各庄捷安特了| js -> GROUP: 我现在就去[奸笑]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1809643250357874956 |再也没有豆各庄捷安特了| js -> GROUP: 我休息<span class="emoji emoji1f639"></span>
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8795970151513306370 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> 送水工❁҉҉҉҉҉҉҉҉小元: 你几点下班？
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8643503406688097599 |再也没有豆各庄捷安特了| ๑°   Yuanyuan  ஐ -> js  那你帮我带眼: @js  那你帮我带眼镜
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6752591497088016640 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> js  那你帮我带眼: @js  那你帮我带眼镜
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1861385022020400111 |再也没有豆各庄捷安特了| js -> GROUP: 眼镜也在那啊？
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:Saved file: /root/WeChatMonitor/static/hazelnut/msgimgs/img_8322766919323477718.jpg
+INFO:root:8322766919323477718 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 再也没有豆各庄捷安特了 发送了一张图片: /root/WeChatMonitor/static/hazelnut/msgimgs/img_8322766919323477718.jpg
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8915454226188127784 |再也没有豆各庄捷安特了| 木南 -> js 那你帮我带眼: @js 那你帮我带眼镜
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5660332626125044066 |再也没有豆各庄捷安特了| js -> GROUP: 啥眼镜你们这么抢[奸笑]
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2564259020391916608 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 泰迪就是不靠谱
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5060600779634559306 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 这特么不得疯抢吗。。
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4711026389993862736 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 感觉会像菜市场一样
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8120593903866136528 |再也没有豆各庄捷安特了| 木南 -> GROUP: js快去帮我们现场直播
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:957800674416159380 |再也没有豆各庄捷安特了| 送水工❁҉҉҉҉҉҉҉҉小元 -> (๑• . •๑)惟: 六点，[撇嘴]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6150145393193787140 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 骑车去自行车能进么
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2303268342570878822 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 貌似不好停吧 看别人都是开车去的
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7774732784581769630 |再也没有豆各庄捷安特了| 小鳝鳝 -> GROUP: 进不去吧
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4958225348186398130 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 开车
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4114271447322242422 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 那不去了<span class="emoji emoji1f639"></span> 我就是为了骑会车
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3096400920779237292 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 惟主将我带你去
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3136055239984067582 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 打滴滴
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6378542000402944319 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 顺便去万总那扫荡
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2740791157947071704 |再也没有豆各庄捷安特了| 炫 -> GROUP: 你们到底是去哪里[捂脸]
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1119704054027514376 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> 炫: 他们打算一条龙 好像两个地方挺近的都去
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6748763937500990118 |Youth fed the 2nd dog| Andy -> GROUP: 请我现在有没有人能彻底解决获取UIN的？
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2588608938719961598 |再也没有豆各庄捷安特了| 炫 -> GROUP: 我看这聊天记录乱的得要死的节奏……
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2498121290069128227 |再也没有豆各庄捷安特了| 炫 -> GROUP: 一会儿不看群完全跟不上大神的跳跃思维
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6922745315722232715 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 都在化工路
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2685211936964103497 |再也没有豆各庄捷安特了| 炫 -> GROUP: 没有满足我近视的……不去<span class="emoji emoji1f639"></span>
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6497408494733219594 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 化工路西边欧克利 东边万总店
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3770096820631314377 |再也没有豆各庄捷安特了| js -> GROUP: 这地方不是豆各庄捷安特店呀[奸笑]
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6087383083462007832 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 万总周末也发了帖子吧 
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6759847820271409544 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 噗。。我觉得可以把自行车放到万神那里
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2386594772738065545 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 太好了我找到了出门骑车的理由
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6107904815151555424 |再也没有豆各庄捷安特了| 洋神粉丝－编号1234 -> GROUP: 近视片贵
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1129850923404645112 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 炫主将的JB是近视的嘛？
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4477929132551940409 |再也没有豆各庄捷安特了| 炫 -> GROUP: 是
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:Saved file: /root/WeChatMonitor/static/hazelnut/msgimgs/img_2574518374481578709.jpg
+INFO:root:2574518374481578709 |再也没有豆各庄捷安特了| 我是老万 -> GROUP: 再也没有豆各庄捷安特了 发送了一张图片: /root/WeChatMonitor/static/hazelnut/msgimgs/img_2574518374481578709.jpg
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8084527075155973012 |再也没有豆各庄捷安特了| 我是老万 -> GROUP: 这是个啥
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4849979257272877128 |再也没有豆各庄捷安特了| js -> GROUP: [奸笑]
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1338331283239019819 |再也没有豆各庄捷安特了| 炫 -> GROUP: <span class="emoji emoji1f612"></span>
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4980278316064953352 |再也没有豆各庄捷安特了| 炫 -> GROUP: 欧克利
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6967242222951336367 |再也没有豆各庄捷安特了| 炫 -> GROUP: 一个系列
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4064554021065004363 |再也没有豆各庄捷安特了| 我是老万 -> GROUP: [抠鼻][再见]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7889852145603747579 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 是定制的度数？
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1929495791565338087 |再也没有豆各庄捷安特了| 炫 -> GROUP: 是
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4386870712411990843 |再也没有豆各庄捷安特了| 炫 -> GROUP: 你们聊 我接着搬砖去了
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8717118192548687494 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 多少嘛呢
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6249865147114617683 |再也没有豆各庄捷安特了| 炫 -> GROUP: 我查一下
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3707367302989938871 |qiche8.net| 民大相思湖学院、蒋何 -> GROUP: 没空
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6492639572114876657 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 各位大神人生赢家
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7731292309151326591 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 有钱人。。
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4666340125083970508 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 你们聊，我一直在搬砖
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4052170986149299583 |再也没有豆各庄捷安特了| (๑• . •๑)惟 -> GROUP: 近视的2000多
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5536433393419414205 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 有钱人。。
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3035989089329809840 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 单独变色的 估计也得2K吧
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7908009078772885718 |再也没有豆各庄捷安特了| 炫 -> GROUP: 贵
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4312067306498532493 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 还是shimano 无权限
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:Saved file: /root/WeChatMonitor/static/hazelnut/msgimgs/img_3041448175600728937.jpg
+INFO:root:3041448175600728937 |再也没有豆各庄捷安特了| 炫 -> GROUP: 再也没有豆各庄捷安特了 发送了一张图片: /root/WeChatMonitor/static/hazelnut/msgimgs/img_3041448175600728937.jpg
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5108184487687775733 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 再也没有豆各庄捷安特了 撤回了一条消息
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2063825982070142268 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 炫富婆
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8131603215568603152 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 求包养
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3643914003790421005 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 还是shimano eqx2亲民
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1566829448185464647 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 各位大神人生赢家
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1393552276419894466 |再也没有豆各庄捷安特了| 炫 -> GROUP: 再也没有豆各庄捷安特了 撤回了一条消息
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:167708572274156657 |再也没有豆各庄捷安特了| 炫 -> GROUP: 太贵了~
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5266742327381892452 |再也没有豆各庄捷安特了| 送水工❁҉҉҉҉҉҉҉҉小元 -> GROUP: 再也没有豆各庄捷安特了 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/ZBZR9F1icibhXFXssX5uW2ZhobjZxKxeT6yTmC0GwbQj6Qpdaxxrgntw/
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1336772523586483024 |再也没有豆各庄捷安特了| 炫 -> GROUP: 当初脑子估计抽风了
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2069883744743814093 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 炫主将 你那个还是变色近视？
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5440493463754901880 |再也没有豆各庄捷安特了| js -> GROUP: 全天候变色是什么意思
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4768918889139192745 |再也没有豆各庄捷安特了| 炫 -> GROUP: 变色
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6956647416984664972 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 卧槽
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:9006502988934976249 |再也没有豆各庄捷安特了| 炫 -> GROUP: 跟着阳光变色
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1551797864927257541 |再也没有豆各庄捷安特了| js -> GROUP: 一种镜片 白天晚上都能戴？
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8343710347637953814 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 白天没和炫主将骑过 、没发现
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2905591192969956850 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 看看你们的车，还说眼镜贵，亏不亏心
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7530303695026854954 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 透光率可变
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1778226535049830466 |再也没有豆各庄捷安特了| 炫 -> GROUP: 可以
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2893444723070231785 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 看看你们的车，还说眼镜贵，亏不亏心
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3702612736495538291 |再也没有豆各庄捷安特了| js -> GROUP: 那还挺方便[奸笑]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5725402206543614034 |再也没有豆各庄捷安特了| js -> GROUP: 不用换镜片
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6216602229976801422 |再也没有豆各庄捷安特了| 炫 -> GROUP: 你们聊……我去搬砖[皱眉]
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1968687321633556660 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 0.0
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:884536593374337035 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 我总感觉。。
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6035008761272868648 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 炫主将装备就得上W了
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1804282374796649052 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 炫主将是指挥别人搬砖的。。
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:167813997011544176 |Youth fed the 2nd dog| 李佳芮 -> 姣姣: 
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3766787806564003836 |再也没有豆各庄捷安特了| 我是老万 -> GROUP: 再也没有豆各庄捷安特了 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/Mnw3LLlkeC9pVfsdPNjH6PyBqjggzzWg0ZNPib3LUPYN8wo0QgNJXlw/
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:409994945339757735 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 3K的眼镜 2K的头盔 2K的粉色SIDI 一身小龙虾 啧啧啧
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2168340737073433436 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> 炫: 求包养
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8674874430300000703 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 关键是能买多少小龙虾吃[捂脸]
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6477861086803650582 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 折换成腰子
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2921168149634851390 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 得吃多少顿
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:Saved file: /root/WeChatMonitor/static/hazelnut/msgimgs/img_5055432418111547490.jpg
+INFO:root:5055432418111547490 |「大栅栏工作组助理群」| 黎书豪 -> GROUP: 「大栅栏工作组助理群」 发送了一张图片: /root/WeChatMonitor/static/hazelnut/msgimgs/img_5055432418111547490.jpg
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3168641985852506672 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: [捂脸]我算算我的。。。700的Oakley，900的头盔，200的上衣，500的裤子，300的鞋，100的手套
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5192432031454279878 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 果然屌丝
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3599437640287594323 |HBL丿戴普思集团总部| 文柯宇电工 -> GROUP: HBL丿戴普思集团总部 发了一个动画表情，点击下面链接查看: 未知
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1312159599212402775 |HBL丿戴普思集团总部| 文柯宇电工 -> GROUP: HBL丿戴普思集团总部 撤回了一条消息
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6959241782254357885 |HBL丿戴普思集团总部| 文柯宇电工 -> GROUP: HBL丿戴普思集团总部 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/HGK7JAXutm6LgjPnNcoia6G9WsxjUMIEe2nPvcjbATHoNMzONvqa4AUCpBkGZl1gR/
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2464427184900440744 |「大栅栏工作组助理群」| 黎书豪 -> GROUP: 煤东姐妹合唱团一对一辅导
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:467874681727781043 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 我都是300的头盔，前几天还是迪卡侬
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3910339243152684681 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 100多的眼镜，150的贝尔头盔，100多的上衣，99的裤子，300的鞋，100的手套
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8049800061364426927 |再也没有豆各庄捷安特了| js -> GROUP: 我这一身才1000[奸笑]
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8318580254321126477 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 我想知道谁带炫主将入坑的
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:771340619046101950 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 我都掉渣了
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2383071741487915508 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 我是乞丐
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7468144386864396058 |Youth fed the 2nd dog| ctrl -> GROUP: 联系娇娇？
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3517996069789188446 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 我擦 我算下我的 8000的车子 500的近视镜 500的头盔 200的锁鞋 不带手套
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7409833656882649882 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: [捂脸]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1551692954458293819 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 五洋神威武
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7869847234291730711 |HBL丿戴普思集团总部| 文柯宇电工 -> GROUP: 考虑一下删浴桶好友？
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5401140254172065652 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 五洋五洋，法力无边
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:917631668120684649 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 穷啊
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7315307021542891726 |HBL丿戴普思集团总部| 文柯宇电工 -> GROUP: 看看这个畜生的id
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8007243036786076813 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 五羊神是五年前8000
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1547912855154470417 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 现在800我得考虑一下
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3136480182061450746 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 穷啊
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:528000372492544003 |Youth fed the 2nd dog| 姣姣 -> GROUP: [呲牙]有需要的可以联系我哦
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4637704375279235865 |再也没有豆各庄捷安特了| 送水工❁҉҉҉҉҉҉҉҉小元 -> 骑车总被神套路: @꧁路渣꧂ @本群最靠谱副将 锁鞋我想咨询一下什么品牌➕型号的[捂脸][捂脸][捂脸]
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3706625990207338601 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 花多少钱
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2920028671582181088 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 碳的还是尼龙的
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1110928896396561707 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 这得看你出多钱了
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3909218952550564168 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 买顶级就对了
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4662265118747134483 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 照着炫主将买就对了
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1209001437789104323 |HBL丿戴普思集团总部| 马桥街上小老鼠 -> GROUP: ？？？
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5980825667196129462 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 你看队长买啥你就买啥
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4441781307579005110 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 最新潮流
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1318210523206281585 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 欧克利 浦东尼 sidi
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6474886557205033286 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 我三年前全车8000还多么 屌丝车了
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3496234530636928363 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 小龙虾
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4168744904866572871 98跑 -> hazelnut: 98跑 分享了一个链接: {"title": "\u7a7a\u8179\u8dd1\u6b65\u7684\u5371\u5bb3\uff0c\u5f88\u591a\u4eba\u4e0d\u77e5\u9053", "url": "http://mp.weixin.qq.com/s?__biz=MzA3MjY4NDcyMw==&amp;mid=2652430385&amp;idx=1&amp;sn=779c2baccbf8383e77ff660ff8791af2&amp;chksm=84f6c5edb3814cfbd30875e10845a750bfe7be93a05abc665ec78e46ad13033d7b6c916da872&amp;scene=0#rd", "description": "\u4ece\u51cf\u80a5\u7684\u6548\u679c\u6765\u770b\uff0c\u957f\u65f6\u95f4\u7a7a\u8179\u8dd1\u6b65\u7684\u786e\u6709\u6548\u3002\u4ece\u5065\u5eb7\u8fd0\u52a8\u7684\u89d2\u5ea6\u6765\u5206\u6790\uff0c\u957f\u65f6\u95f4\u7a7a\u8179\u8dd1\u6b65\u4e0d\u5229\u4e8e\u8eab\u4f53\u5065\u5eb7\u3002", "appname": "98\u8dd1"}
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2292160794564419883 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 关键你换了多少件？
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2512888737236049713 |再也没有豆各庄捷安特了| 王梁 -> GROUP: 我就是跟着大队长买，然后现在快要饭了
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8629774958304426291 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 你的车早不止8000了
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2051691674463469818 |再也没有豆各庄捷安特了| js -> GROUP: [捂脸]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:775348372973588102 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 我就是跟着大队长买，然后现在快要饭了
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:963460925369054575 |再也没有豆各庄捷安特了| 我是老万 -> GROUP: 我就是买大队长用剩下的   然后现在已经在要饭了
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2152635948424950422 |再也没有豆各庄捷安特了| 送水工❁҉҉҉҉҉҉҉҉小元 -> GROUP: 鞋➕锁1千以内都行[捂脸]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6062036325904356564 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 你们看看，蛋用
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8653126049011559060 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 不不 炫主将看上rapha了
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7481040604673471561 |再也没有豆各庄捷安特了| 送水工❁҉҉҉҉҉҉҉҉小元 -> 王梁: [捂脸][捂脸][捂脸]
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7739602812524151352 心理说 -> hazelnut: 心理说 分享了一个链接: {"title": "\u300a\u6211\u7684\u524d\u534a\u751f\u300b\uff1a\u90a3\u4e2a\u5ac1\u7ed9\u7231\u60c5\u7684\u59d1\u5a18\uff0c\u540e\u6765\u8fc7\u5f97\u600e\u4e48\u6837\uff1f", "url": "http://mp.weixin.qq.com/s?__biz=MjM5MTE5ODMwMA==&amp;mid=2651732942&amp;idx=1&amp;sn=08cffa0b74d2303956d32ae28f103b9a&amp;chksm=bd43a6fd8a342feb1236e1c1b1035114e9bde6fe8102f458af68e53afc0e6f11987047d92f7a&amp;scene=0#rd", "description": "\u4e4b\u540e\u7684\u4e00\u5207\uff0c\u4fbf\u662f\u7ffb\u6765\u8986\u53bb\u5730\u96ea\u4e0a\u52a0\u971c\u800c\u5df2\u3002", "appname": "\u5fc3\u7406\u8bf4"}
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7997755231677748523 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 那买森地客多锁鞋吧 也挺好看的 
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3297984103204836454 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: r171加105锁踏，一千出点头
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3572273222358783302 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 森地客据说不行
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2169186216865468698 |Youth fed the 2nd dog| Roy-Chang -> GROUP: 加你了
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:3345913617239343839 |再也没有豆各庄捷安特了| 小鳝鳝 -> GROUP: r9啊
+DEBUG:root:[*] 你有新的消息，请注意查收
+DEBUG:root:Saved file: /root/WeChatMonitor/static/hazelnut/msgimgs/img_6453043213662008192.jpg
+INFO:root:6453043213662008192 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 再也没有豆各庄捷安特了 发送了一张图片: /root/WeChatMonitor/static/hazelnut/msgimgs/img_6453043213662008192.jpg
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1367128286672378598 |Youth fed the 2nd dog| Roy-Chang -> GROUP: 通过一下帮忙
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8537624109274005892 |再也没有豆各庄捷安特了| 小鳝鳝 -> GROUP: 再也没有豆各庄捷安特了 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/raoHrTe0wE2RNSwK95L2n75Nnia4rK4wekrVcQy7XnBOtwsPn9ictTPg/
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1158239770084081358 |再也没有豆各庄捷安特了| 小鳝鳝 -> GROUP: 买就买旗舰
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7039572448902094828 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 衣服设计的又问题
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8810395110192765563 |再也没有豆各庄捷安特了| 王梁 -> 送水工❁҉҉҉҉҉҉҉҉小元: 锁鞋要买个好点的，碳底的，
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:6971421943215085655 |再也没有豆各庄捷安特了| ꧁路渣꧂ -> GROUP: 我看上lake那双鞋了
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4676718052369454612 |再也没有豆各庄捷安特了| 本群最靠谱副将 -> GROUP: 森地客有圆点鞋<span class="emoji emoji1f637"></span>
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:7257235657177621399 |成渝15分校| Dw -> GROUP: 成渝15分校 分享了一个链接: {"title": "\u3010\u793e\u4f1a\u65f6\u5206\u79d2\u3011\u5fc3\u75bc\uff01\u5973\u5b505\u6b21\u8003\u79d1\u76ee\u4e8c\u5747\u5931\u8d25 \u8003\u5b8c\u8f66\u5185\u5927\u54ed\u60f9\u4eba\u5fc3\u75bc", "url": "http://m.zijieimg.net/a6446899458050359822/?iid=8520319456&amp;app=news_article&amp;wxshare_count=1&amp;tt_from=weixin&amp;utm_source=weixin&amp;utm_medium=toutiao_android&amp;utm_campaign=client_share", "description": "7\u670818\u65e5\u4e0b\u5348\uff0c\u4e00\u7f51\u53cb\u7206\u6599\uff0c\u5176\u8ba4\u8bc6\u7684\u4e00\u4f4d\u5973\u5b50\u5df2\u7ecf\u53c2\u52a0\u8fc75\u6b21\u79d1\u76ee2\u7684\u8003\u8bd5\u4e86\uff0c\u7ed3\u679c\u8fd9\u6b21\u8fd8\u662f\u5931\u5229\u672a\u8fc7\u3002\u5973\u5b50\u8003\u5b8c\u4e4b\u540e\u8f66\u5185\u62b1\u7740\u65b9\u5411\u76d8\u75db\u54ed\u3002", "appname": "\u4eca\u65e5\u5934\u6761"}
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4273194675049058935 |Youth fed the 2nd dog| 姣姣 -> GROUP: 加啦
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:1566567754083461271 |再也没有豆各庄捷安特了| 洋神粉丝－编号1234 -> GROUP: 好透
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:4891964400978166282 |再也没有豆各庄捷安特了| 一直被套路 -> GROUP: 我觉得主将合适穿lw
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:8684835646805968373 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 该是网眼的地方用了布料
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5297469720210063168 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 买买买
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2069311700195297049 |Youth fed the 2nd dog| Roy-Chang -> GROUP: 没有啊
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:5052354365298202597 |再也没有豆各庄捷安特了| 洋神粉丝－编号1234 -> GROUP: NW锁鞋也不错呀
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2915670867181555350 |再也没有豆各庄捷安特了| 洋神粉丝-编号8848 -> GROUP: 炫主将已经看海淘各种逼格小众骑行品牌了
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2256733995579250452 |再也没有豆各庄捷安特了| js -> GROUP: 这衣服设计挺好的[捂脸]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2913217119637106211 |成渝15分校| Dw -> GROUP: 成渝15分校 撤回了一条消息
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:2100381925382763687 |再也没有豆各庄捷安特了| js -> GROUP: 情趣 骑行[捂脸]
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:[*] 你有新的消息，请注意查收
+INFO:root:214273508668053888 |再也没有豆各庄捷安特了| 骑车总被神套路 -> GROUP: 买买买
+DEBUG:root:retcode: -1, selector: -1
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:retcode: 0, selector: 2
+DEBUG:root:retcode: 0, selector: 2
