@@ -1,4 +1,4 @@
-static/user
-__pycache__
 .idea
-.DS_Store
+__pycache__
+static/user/*
+
