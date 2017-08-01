@@ -955,6 +955,10 @@ class WebWeixin(object):
 
 
     def _configLog(self):
+        if not os.path.exists('{0}/log'.format(self.saveFolder)):
+            os.makedirs('{0}/log'.format(self.saveFolder), mode=0o777);
+
+
         logging.basicConfig(filename='{0}/log'.format(self.saveFolder), level=logging.DEBUG)
         if not sys.platform.startswith('win'):
             import coloredlogs
