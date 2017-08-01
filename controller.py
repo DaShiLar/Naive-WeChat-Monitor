@@ -2,6 +2,7 @@ from database import db_session
 from models import User, Process, START, SCANNED, END, convertTime
 import time
 import os
+from sqlalchemy import or_
 
 def verify_password(user_id, password):
     query = db_session.query(User)
@@ -59,9 +60,12 @@ def endProcess(user_id):
         try:
             result.status = END
             result.end_time = convertTime(time.time())
-            os.kill(result.process_id, 0)
+            print("process_id to be killed is {0}".format(result.process_id))
+            checkProcess = os.kill(result.process_id, 0)
         except OSError:
             continue
+        else:
+            os.kill(result.process_id, 9)
 
     db_session.commit()
 
@@ -80,10 +84,12 @@ def checkWhetherScanned(user_id):
 
 def startNewProcessPermission(user_id):
     query = db_session.query(Process)
-    result = query.filter(Process.user_id == user_id).filter(Process.status==START or Process.status==SCANNED).first()
+    result = query.filter(Process.user_id == user_id).filter(or_(Process.status == START,  Process.status == SCANNED)).first()
 
     if result is None:
         return True
     else:
+        print ("user_id={0}".format(user_id))
+        print(result)
         return False
 

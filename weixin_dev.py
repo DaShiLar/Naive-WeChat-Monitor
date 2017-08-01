@@ -956,7 +956,7 @@ class WebWeixin(object):
 
     def _configLog(self):
         if not os.path.exists('{0}/log'.format(self.saveFolder)):
-            with open("{0}/log".format(self.saveFolder)) as fp:
+            with open("{0}/log".format(self.saveFolder), 'w') as fp:
                 pass
 
 
