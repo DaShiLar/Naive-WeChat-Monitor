@@ -9,6 +9,8 @@ import json
 from models import User, Process, START, SCANNED, END
 import database
 import controller
+import signal
+
 
 
 
@@ -16,9 +18,11 @@ app = Flask(__name__)
 
 saved_directory = os.path.dirname(os.path.abspath(__file__)) + '/static/user'
 
+def handle_signal(signum, frame):
+    print ("信号{0}被捕捉".format(signum))
+    os.waitpid(0,0)
 
-
-
+signal.signal(signal.SIGCHLD, handle_signal)
 
 
 # 增加flask验证代码============
@@ -108,8 +112,8 @@ def start_process():
         flash("对不起，你目前还处于信息托管状态，请先点击'结束托管'后再重新开始托管")
         return render_template('index.html')
 
-    wechatProcess = Popen('python3.5 weixin_dev.py ' + current_user.user_id, shell=True)
-    controller.addNewProcess(current_user.user_id, wechatProcess.pid)
+    wechatProcess = Popen(['/usr/bin/python3', 'weixin_dev.py', current_user.user_id], shell=False)
+    #controller.addNewProcess(current_user.user_id, wechatProcess.pid)
 
 
     ##等待图片生成

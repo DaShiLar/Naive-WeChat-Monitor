@@ -967,6 +967,12 @@ class WebWeixin(object):
 
     @catchKeyboardInterrupt
     def start(self):
+        if not os.path.exists(self.saveFolder):
+            os.makedirs(self.saveFolder)
+
+        controller.addNewProcess(self.user_id, self.process_id)
+
+        
         ###将日志输出到指定文件
         self._configLog()
         self._echo('[*] 微信网页版 ... 开动')
@@ -991,7 +997,7 @@ class WebWeixin(object):
 
         ##登录完成，修改当前进程的状态
         controller.scanProcess(self.process_id)
-
+        print ("当前进程为{0}".format(self.process_id))
 
 
         self._run('[*] 正在登录 ... ', self.login)
