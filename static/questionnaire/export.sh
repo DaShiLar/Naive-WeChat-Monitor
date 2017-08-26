@@ -1,0 +1,1 @@
+mongoexport --host 118.89.191.156 --db try --collection questionnaire --csv --out export.csv --fields _id,occupation,not_contact_friend,hukou,literacy,religion,personal_salary,marriage,age,good_friend,help_friend,nickname,total_venue,not_frequently_contact_friend,gender,social_status,user_id,intimate_friend

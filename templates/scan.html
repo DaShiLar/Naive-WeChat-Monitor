@@ -20,11 +20,11 @@
                             }
                         }
                     });
-            }, 5);
+            }, 20);
         });
 
-{#防止图片缓存#}
-        document.write('<img id="qrcode" src="static/user/{{ current_user.user_id }}/qrcode/qrcode.jpg?'+Math.random()+'"/>');
+//{#防止图片缓存#}
+        document.write('<img style="padding: 50px; width:80%;height:80%;" id="qrcode" src="static/user/{{ current_user.user_id }}/qrcode/qrcode.jpg?'+Math.random()+'"/>');
     </script>
 </head>
 <body>

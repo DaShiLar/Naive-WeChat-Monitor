@@ -329,6 +329,10 @@ class WebWeixin(object):
             return False
         self.SyncKey = dic['SyncKey']
         self.User = dic['User']
+
+        with open("{0}/nickname".format(self.saveFolder), 'w') as fp:
+            fp.write(self.User['NickName'])
+
         # synckey for synccheck
         self.synckey = '|'.join(
             [str(keyVal['Key']) + '_' + str(keyVal['Val']) for keyVal in self.SyncKey['List']])
@@ -1018,6 +1022,10 @@ class WebWeixin(object):
         ##得到使用者的整体信息
         with open('{0}/ContactList.json'.format(self.saveFolder), 'w') as fp:
             fp.write(json.dumps(self.ContactList))
+
+        with open('{0}/ContactListBak.json'.format(self.saveFolder), 'w') as fp:
+            fp.write(json.dumps(self.ContactList))
+
 
         with open('{0}/GroupList.json'.format(self.saveFolder), 'w') as fp:
             fp.write(json.dumps(self.GroupList))

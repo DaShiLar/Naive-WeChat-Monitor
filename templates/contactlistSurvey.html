@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Questionnaire2</title>
+
+    <script src="https://unpkg.com/vue"></script>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 可选的Bootstrap主题文件（一般不使用） -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+
+    <!-- Latest compiled and minified Locales -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
+
+</head>
+<script>
+
+</script>
+<body>
+
+<h1>{{ user_id }}</h1>
+<div id="survey_type" style="display:none">{{ survey_type }}</div>
+<div id="min_need_number" style="display:none">{{ min_need_number }}</div>
+<div id="max_need_number" style="display:none">{{ max_need_number }}</div>
+
+<div style="width:60%" id="example">
+    <h1>{{ notice }}</h1>
+    <h2>最少选择{{min_need_number}}人</h2>
+    <h2>最多选择{{max_need_number}}人</h2>
+
+    <h2>已经选择{{count}}人</h2>
+    <form action>
+        <div class="input-group input-group-lg">
+            <span class="input-group-addon">@</span>
+            <input v-model="search_item" v-on:input="search" type="text" class="form-control" placeholder="好友太多？在这里搜索">
+        </div>
+        <br>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>名称</th>
+                <th>选项（请打勾）</th>
+            </tr>
+            </thead>
+            <tbody>
+            <template v-for="(friend, index) in friendList">
+                <tr>
+                    <td>{{friend.RemarkName}}</td>
+                    <td>
+                        <!--点击button删去一个元素-->
+                        <input v-on:click="remove_item(index)" type="button" v-bind:value=index>
+                    </td>
+                </tr>
+            </template>
+            </tbody>
+        </table>
+    </form>
+
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+</body>
+<script src="/static/survey.js?" +Math.random()></script>
+</html>

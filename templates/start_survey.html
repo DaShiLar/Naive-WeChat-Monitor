@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+</head>
+
+<body>
+
+<div style="position:absolute;left:10%;top:20%;">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h1 class="text-center">
+                    调查问卷
+                </h1>
+                <p style="font-size: larger">
+                    朋友：您好！<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是由清华大学社会学系派出的调查员，想就您本人以及您家人目前的生活情况和意见问一些问题。<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;我们的调查主要是为了学术研究和政府制定政策之用，收集群众的相关需求与意见。对于我们将要问到的问题，您的回答无所谓是对还是错，只要符合您的真实情况就可以了。您的如实回答和耐心合作，将直接有利于我们研究和政府政策的制定。
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;我们收集到的所有信息，将只用于计算机的数据统计分析，有关您家庭或个人的信息，不会出现在任何其它场合。我们将尊重您的个人隐私，忠实地为您保守秘密。您的回答受到《统计法》的保护。
+
+                    <br><br><strong>衷心感谢您的合作！</strong>
+                </p>
+            </div>
+        </div>
+        <div id="myButtons2" class="bs-example">
+            <button type="button" class="btn btn-primary" onclick="window.location.href='/survey?survey_type=0'"
+                    data-loading-text="Loading...">开始问卷
+            </button>
+        </div>
+    </div>
+</body>

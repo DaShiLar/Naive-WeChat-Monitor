@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-DB_CONNECT_STRING = 'mysql+pymysql://root:She68105028@localhost:3306/test'
+DB_CONNECT_STRING = 'mysql+pymysql://root:She68105028@localhost:3306/monitor?charset=utf8'
 engine = create_engine(DB_CONNECT_STRING, echo=False)
 db_session = scoped_session(sessionmaker(autocommit=False, autoflush=False, bind=engine))
 
