@@ -1,14 +1,177 @@
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-{% for msg in messages %}
-    <div>{{ msg }}</div>
-{% endfor %}
-{% endif %}
-{% endwith %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Bootply snippet - Bootply Bootstrap Preview</title>
+    <meta name="generator" content="Bootply"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content=""/>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
-<a href="/start_process"/>开始托管</a><br>
-<a href="/kill_process">结束托管</a><br>
-<a href="/start_survey">参与调查</a><br>
-<a href="/generate_report">生成报告</a><br>
-<a href="/logout">登出用户</a><br>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
 
+
+    <!-- CSS code from Bootply.com editor -->
+
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+
+    </style>
+</head>
+
+<!-- HTML code from Bootply.com editor -->
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/start_process">开始托管</a></li>
+        <li><a href="/kill_process">结束托管</a></li>
+        <li><a href="/start_survey">开始调查问卷</a></li>
+          <li><a href="/logout">登出用户</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<div class="container">
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for msg in messages %}
+    <h1>{{ msg }}</h1>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <div class="text-center">
+        <h1>调查问卷</h1>
+        <p class="lead">本次调查需要经过本人的同意，在调查中可能会涉及到一些个人隐私的问题，请确认后开始托管你的微信程序<br>如有疑惑请联系相关人员</p>
+    </div>
+
+</div><!-- /.container -->
+
+<script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.min.js"></script>
+
+
+<!-- JavaScript jQuery code from Bootply.com editor  -->
+
+<script type='text/javascript'>
+
+    $(document).ready(function () {
+
+
+    });
+
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-40413119-1', 'bootply.com');
+    ga('send', 'pageview');
+</script>
+
+
+<style>
+    .ad {
+        position: absolute;
+        bottom: 70px;
+        right: 48px;
+        z-index: 992;
+        background-color: #f3f3f3;
+        position: fixed;
+        width: 155px;
+        padding: 1px;
+    }
+
+    .ad-btn-hide {
+        position: absolute;
+        top: -10px;
+        left: -12px;
+        background: #fefefe;
+        background: rgba(240, 240, 240, 0.9);
+        border: 0;
+        border-radius: 26px;
+        cursor: pointer;
+        padding: 2px;
+        height: 25px;
+        width: 25px;
+        font-size: 14px;
+        vertical-align: top;
+        outline: 0;
+    }
+
+    .carbon-img {
+        float: left;
+        padding: 10px;
+    }
+
+    .carbon-text {
+        color: #888;
+        display: inline-block;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: 400;
+        height: 60px;
+        margin-left: 9px;
+        width: 142px;
+        padding-top: 10px;
+    }
+
+    .carbon-text:hover {
+        color: #666;
+    }
+
+    .carbon-poweredby {
+        color: #6A6A6A;
+        float: left;
+        font-family: Verdana;
+        font-size: 11px;
+        font-weight: 400;
+        margin-left: 10px;
+        margin-top: 13px;
+        text-align: center;
+    }
+</style>
+<div class="ad collapse in">
+    <button class="ad-btn-hide" data-toggle="collapse" data-target=".ad">&times;</button>
+    <script async type="text/javascript"
+            src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=bootplycom"
+            id="_carbonads_js"></script>
+</div>
+
+</body>
+</html>

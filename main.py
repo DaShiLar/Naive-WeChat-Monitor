@@ -100,9 +100,10 @@ def index():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    app.logger.error("enter login")
     form = LoginForm(request.form)
     if request.method == 'GET':
-        return render_template('login.html', form=form)
+        return render_template('newlogin.html', form=form)
 
     if form.validate() and request.method == 'POST':
         print("Valid login Form...")      ##TO DELETE

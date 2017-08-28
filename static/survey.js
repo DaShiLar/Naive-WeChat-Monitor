@@ -1,4 +1,4 @@
-    var hhh = new Vue({
+var hhh = new Vue({
     el: '#example',
     data: {
         survey_type: 0,           //当前问卷的类型
@@ -18,11 +18,11 @@
             this.selectList.push(this.friendList[index].NickName);
 
             //寻找这个人在completeFriendList中的位置
-            for (var position_in_complete = 0; position_in_complete < this.completeFriendList.length; position_in_complete++){
-                if (this.completeFriendList[position_in_complete].RemarkName==deleteRemarkName){
-                     //从完全列表和显示列表中删除这两个人
-                    this.completeFriendList.splice(position_in_complete,1);
-                    this.friendList.splice(index,1);
+            for (var position_in_complete = 0; position_in_complete < this.completeFriendList.length; position_in_complete++) {
+                if (this.completeFriendList[position_in_complete].RemarkName == deleteRemarkName) {
+                    //从完全列表和显示列表中删除这两个人
+                    this.completeFriendList.splice(position_in_complete, 1);
+                    this.friendList.splice(index, 1);
                     break;
                 }
 
@@ -32,18 +32,18 @@
             var that = this;
             //人数到达上限，自动提交
             if (this.max_need_number == this.count) {
-               $.ajax({
-                        url: "/survey",
-                        method: "POST",
-                        data: {
-                            "select_list": that.selectList,
-                            "survey_type": that.survey_type
-                        },
-                        success: function (res) {
-                            console.log(res);
-                            window.location.href = "/survey?survey_type="+res;
-                        }
-                    });
+                $.ajax({
+                    url: "/survey",
+                    method: "POST",
+                    data: {
+                        "select_list": that.selectList,
+                        "survey_type": that.survey_type
+                    },
+                    success: function (res) {
+                        console.log(res);
+                        window.location.href = "/survey?survey_type=" + res;
+                    }
+                });
             }
             //达到最小人数上限的时候，需要询问用户是否还要继续
             if (this.count >= this.min_need_number && this.count < this.max_need_number) {
@@ -58,7 +58,7 @@
                         },
                         success: function (res) {
                             console.log(res);
-                            window.location.href = "/survey?survey_type="+res;
+                            window.location.href = "/survey?survey_type=" + res;
                         }
                     });
                 }

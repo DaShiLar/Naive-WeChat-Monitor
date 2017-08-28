@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Questionnaire2</title>
+    <title>Bootply snippet - Bootply Bootstrap Preview</title>
+    <meta name="generator" content="Bootply"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content=""/>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
 
-    <script src="https://unpkg.com/vue"></script>
 
-    <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS code from Bootply.com editor -->
 
-    <!-- 可选的Bootstrap主题文件（一般不使用） -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
 
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
-
-    <!-- Latest compiled and minified Locales -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
-
+    </style>
 </head>
-<script>
 
-</script>
+<!-- HTML code from Bootply.com editor -->
+<script src="https://unpkg.com/vue"></script>
+
 <body>
 
-<h1>{{ user_id }}</h1>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/start_process">开始托管</a></li>
+                <li><a href="/kill_process">结束托管</a></li>
+                <li><a href="/start_survey">开始调查问卷</a></li>
+                <li><a href="/logout">登出用户</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+
 <div id="survey_type" style="display:none">{{ survey_type }}</div>
 <div id="min_need_number" style="display:none">{{ min_need_number }}</div>
 <div id="max_need_number" style="display:none">{{ max_need_number }}</div>
 
-<div style="width:60%" id="example">
-    <h1>{{ notice }}</h1>
-    <h2>最少选择{{min_need_number}}人</h2>
-    <h2>最多选择{{max_need_number}}人</h2>
 
-    <h2>已经选择{{count}}人</h2>
-    <form action>
+<div id="example">
+    <h4>{{ notice }}</h4>
+    <p class="lead">最少选择{{min_need_number}}人</br>最多选择{{max_need_number}}人</p>
+    <h5>已经选择{{count}}人</h5>
+
+
+    <form>
         <div class="input-group input-group-lg">
             <span class="input-group-addon">@</span>
             <input v-model="search_item" v-on:input="search" type="text" class="form-control" placeholder="好友太多？在这里搜索">

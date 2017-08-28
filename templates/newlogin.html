@@ -16,8 +16,8 @@
     <div class="row">
         <div class="col-sm-4"></div>
         <div class="col-sm-4">
-            <h2 style="text-align: center; color: brown">注册</h2>
-            <form action="" method="post" role="form" action="/register">
+            <h2 style="text-align: center; color: brown">登录</h2>
+            <form action="" method="post" role="form" action="/login">
                 <div class="form-group">
                     <label for="user_id">用户ID</label>
                     <input type="text" class="form-control" id="user_id" name="user_id" placeholder="Select A User Id">
@@ -25,15 +25,10 @@
                     <label for="password">密码</label>
                     <input type="text" class="form-control" id="password" name="password"
                            placeholder="Type your password">
-                    <br>
-                    <label for="phone_number">电话</label>
-                    <input type="password" class="form-control" id="phone_number" name="phone_number"
-                           placeholder="Enter your phone">
-
-
                 </div>
-                <button type="submit" class="btn btn-success">注册</button>
+                <button type="submit" class="btn btn-success">登录</button>
             </form>
+            <a href="{{ url_for('register') }}">还没有注册，快去注册吧！</a>
         </div>
         <div class="col-sm-4"></div>
     </div>

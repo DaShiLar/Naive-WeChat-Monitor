@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Bootstrap 实例 - 水平表单</title>
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="generator" content="Bootply"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content=""/>
+    <title>基础问卷</title>
     <link rel="stylesheet" href="/static/example.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
+
+
+    <!-- CSS code from Bootply.com editor -->
+
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+        }
+
+    </style>
 </head>
 
 <body>
+
+
 <script>
     function validate() {
         if (!$('input[name="gender"]:checked').val()) {
@@ -38,7 +65,7 @@
             return false;
         }
         if (!$('input[name="occupation"]:checked').val()) {
-            alert("请填写你的婚姻信息");
+            alert("请填写你的职业");
             return false;
         }
         if (!$('input[name="personal_salary"]:checked').val()) {
@@ -70,422 +97,448 @@
 
 
 </script>
-<h1 style="text-align: center">基本内容</h1>
-<div class="container">
-    <form id="myForm" method="post" action="/survey?survey_type=1" style="left: 30px; position: relative"
-          class="form-horizontal"
-          role="form">
-        <input style="display: none" name="survey_type" value="1">
-        <div class="control-group" id="gender">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您的性别是？</label>
-                </div>
-                <div class="col-xs-9">
-                    <!-- Multiple Radios -->
-                    <label class="radio">
-                        <input type="radio" value="1 男" name="gender">男
-                    </label>
-                    <label class="radio">
-                        <input type="radio" value="2 女" name="gender">女
-                    </label>
-                </div>
-            </div>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
         </div>
-        <br><br><br><br>
-
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <!-- Text input-->
-                    <label class="choice_label" for="input01">您的年龄是？</label>
-                </div>
-                <div class="col-xs-9">
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-addon">@</span>
-                        <input type="text" class="form-control" placeholder="年龄" name="age">
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您的婚姻状况是？</label>
-                </div>
-                <div class="col-xs-9">
-                    <div class="controls">
-                        <!-- Multiple Radios -->
-                        <label class="radio">
-                            <input type="radio" value="1 未婚" name="marriage">
-                            1 未婚
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="2 已婚" name="marriage">
-                            2 已婚
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="3 丧偶" name="marriage">
-                            3 丧偶
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="4 离婚" name="marriage">
-                            4 离婚
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="5 不知道" name="marriage">
-                            5.不知道
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您的文化程度是？</label>
-                </div>
-                <div class="col-xs-9">
-                    <div class="controls">
-                        <!-- Multiple Radios -->
-                        <label class="radio">
-                            <input type="radio" value="1 不识字或识字很少" name="literacy">
-                            1 不识字或识字很少
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="2 小学没毕业" name="literacy">
-                            2 小学没毕业
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="3 小学" name="literacy">
-                            3 小学
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="4 普通初中" name="literacy">
-                            4 普通初中
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="5 普通高中" name="literacy">
-                            5 普通高中
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="6 中专/技校/职业高中" name="literacy">
-                            6 中专/技校/职业高中
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="7 大学专科" name="literacy">
-                            7 大学专科
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="8 大学本科" name="literacy">
-                            8 大学本科
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="9 研究生" name="literacy">
-                            9 研究生
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="10 其它类型学校" name="literacy">
-                            10 其它类型学校
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="11 保密" name="literacy">
-                            11 保密
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您的户口类型是？（本地指本县/市）</label>
-                </div>
-                <div class="col-xs-9">
-                    <div class="controls">
-                        <!-- Multiple Radios -->
-                        <label class="radio">
-                            <input type="radio" value="1 本地农业" name="hukou">
-                            1 本地农业
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="2 本地非农业" name="hukou">
-                            2 本地非农业
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="3 外地农业" name="hukou">
-                            3 外地农业
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="4 外地非农业" name="hukou">
-                            4 外地非农业
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="9 保密" name="hukou">
-                            9 保密
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您的宗教信仰情况是？</label>
-                </div>
-                <div class="col-xs-9">
-                    <div class="controls">
-                        <!-- Multiple Radios -->
-                        <label class="radio">
-                            <input type="radio" value="1 佛教" name="religion">
-                            1佛教
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="2 道教" name="religion">
-                            2道教
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="3 伊斯兰教" name="religion">
-                            3伊斯兰教
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="4 基督教/天主教" name="religion">
-                            4基督教/天主教
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="5 其他教派" name="religion">
-                            5其他教派
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="6 不信教" name="religion">
-                            6不信教
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="7 保密" name="religion">
-                            7 保密
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <br><br><br><br>
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您的当前职业或最后一份职业是？</label>
-                </div>
-                <div class="col-xs-3">
-                    <div class="controls">
-                        <!-- Multiple Radios -->
-                        <label class="radio">
-                            <input type="radio" value="1 机关、企事业单位负责人       " name="occupation">
-                            1 机关、企事业单位负责人
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="2 单位中层管理人员（部门经理/主管/主任等）" name="occupation">
-                            2 单位中层管理人员（部门经理/主管/主任等）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="3 基层管理人员/一般管理人员（工段长、组长等）" name="occupation">
-                            3 基层管理人员/一般管理人员（工段长、组长等）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="4 中级、高级职称专业技术人员    " name="occupation">
-                            4 中级、高级职称专业技术人员
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="5 其他专业技术人员/一般技术员" name="occupation">
-                            5 其他专业技术人员/一般技术员
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="6 一般机关干部/公务员           " name="occupation">
-                            6 一般机关干部/公务员
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="7 经济业务人员（如会计、金融、营销、中介等）" name="occupation">
-                            7 经济业务人员（如会计、金融、营销、中介等）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="8 企事业单位办公室职员/办事人员 " name="occupation">
-                            8 企事业单位办公室职员/办事人员
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="9 商业、服务业人员（如服务员、售货员）" name="occupation">
-                            9 商业、服务业人员（如服务员、售货员）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="10 产业工人（技术工种） " name="occupation">
-                            10 产业工人（技术工种）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="11产业工人（非技术工种）" name="occupation">
-                            11产业工人（非技术工种）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="12 农民/农林牧渔业人员   " name="occupation">
-                            12 农民/农林牧渔业人员
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="13 军人/警察/消防人员" name="occupation">
-                            13 军人/警察/消防人员
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="14 私营业主（雇工8人或以上）  " name="occupation">
-                            14 私营业主（雇工8人或以上）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="15 个体户/小业主（不雇工或雇工8人以下）" name="occupation">
-                            15 个体户/小业主（不雇工或雇工8人以下）
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="16 自由职业者  " name="occupation">
-                            16 自由职业者
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="17 打零工  " name="occupation">
-                            17 打零工
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="18其它    " name="occupation">
-                            18其它
-                        </label>
-                        <label class="radio">
-                            <input type="radio" value="19保密 " name="occupation">
-                            19保密
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您个人上个月（或上次就业）的收入是多少钱？（家庭帮工不填）</label>
-                </div>
-                <div class="col-xs-3">
-                    <div class="controls">
-                        <!-- Inline Radios -->
-                        <label class="radio inline">
-                            <input type="radio" value="1 4000以下   " name="personal_salary">
-                            4000以下
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="2 4001-6000    " name="personal_salary">
-                            4001-6000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="3 6001-8000  " name="personal_salary">
-                            6001-8000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="4 8001-10000  " name="personal_salary">
-                            8001-10000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="5 10001-20000    " name="personal_salary">
-                            10001-20000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="6 20001-50000 " name="personal_salary">
-                            20001-50000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="7 50000以上" name="personal_salary">
-                            50000以上
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <label class="choice_label">您家在本地的每月总收入是多少钱？(包括工资收入、经营收入、财产收入、转移收入等）（税后纯收入）</label>
-                </div>
-                <div class="col-xs-3">
-                    <div class="controls">
-                        <!-- Inline Radios -->
-                        <label class="radio inline">
-                            <input type="radio" value="1 4000以下   " name="total_venue">
-                            4000以下
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="2 4001-6000    " name="total_venue">
-                            4001-6000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="3 6001-8000  " name="total_venue">
-                            6001-8000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="4 8001-10000  " name="total_venue">
-                            8001-10000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="5 10001-20000    " name="total_venue">
-                            10001-20000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="6 20001-50000 " name="total_venue">
-                            20001-50000
-                        </label>
-                        <label class="radio inline">
-                            <input type="radio" value="7 50000以上" name="total_venue">
-                            50000以上
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div class="control-group">
-            <div class="row">
-                <div class="col-xs-3">
-                    <!-- Select Basic -->
-                    <label class="choice_label">您家的社会经济地位在本地大体属于哪个层次？</label>
-                </div>
-                <div class="col-xs-3">
-                    <div class="controls">
-                        <select class="input-xlarge" name="social_status">
-                            <option name="social_status">1 上层</option>
-                            <option name="social_status">2 中上层</option>
-                            <option name="social_status">3 中层</option>
-                            <option name="social_status">4 中下层</option>
-                            <option name="social_status">5 下层</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <br><br><br><br>
-
-        <div class="row">
-            <div class="col-xs-6"></div>
-            <div class="col-xs-3">
-                <button type="submit" style="" class="btn btn-primary btn-lg btn-block">提交</button>
-            </div>
-            <div class="col-xs-3"></div>
-    </form>
-
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/start_process">开始托管</a></li>
+                <li><a href="/kill_process">结束托管</a></li>
+                <li><a href="/start_survey">开始调查问卷</a></li>
+                <li><a href="/logout">登出用户</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
 </div>
+<div class="container">
+
+    <div class="text-center">
+        <h1>调查问卷</h1>
+        <div class="container">
+            <form id="myForm" method="post" action="/survey?survey_type=1" style="left: 30px; position: relative"
+                  class="form-horizontal"
+                  role="form">
+                <input style="display: none" name="survey_type" value="1">
+                <div class="control-group" id="gender">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您的性别是？</label>
+                        </div>
+                        <div class="col-xs-9">
+                            <!-- Multiple Radios -->
+                            <label class="radio">
+                                <input type="radio" value="1 男" name="gender">男
+                            </label>
+                            <label class="radio">
+                                <input type="radio" value="2 女" name="gender">女
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <!-- Text input-->
+                            <label class="choice_label" for="input01">您的年龄是？</label>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon">@</span>
+                                <input type="text" class="form-control" placeholder="年龄" name="age">
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您的婚姻状况是？</label>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="controls">
+                                <!-- Multiple Radios -->
+                                <label class="radio">
+                                    <input type="radio" value="1 未婚" name="marriage">
+                                    1 未婚
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="2 已婚" name="marriage">
+                                    2 已婚
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="3 丧偶" name="marriage">
+                                    3 丧偶
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="4 离婚" name="marriage">
+                                    4 离婚
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="5 不知道" name="marriage">
+                                    5.不知道
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您的文化程度是？</label>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="controls">
+                                <!-- Multiple Radios -->
+                                <label class="radio">
+                                    <input type="radio" value="1 不识字或识字很少" name="literacy">
+                                    1 不识字或识字很少
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="2 小学没毕业" name="literacy">
+                                    2 小学没毕业
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="3 小学" name="literacy">
+                                    3 小学
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="4 普通初中" name="literacy">
+                                    4 普通初中
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="5 普通高中" name="literacy">
+                                    5 普通高中
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="6 中专/技校/职业高中" name="literacy">
+                                    6 中专/技校/职业高中
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="7 大学专科" name="literacy">
+                                    7 大学专科
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="8 大学本科" name="literacy">
+                                    8 大学本科
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="9 研究生" name="literacy">
+                                    9 研究生
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="10 其它类型学校" name="literacy">
+                                    10 其它类型学校
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="11 保密" name="literacy">
+                                    11 保密
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您的户口类型是？（本地指本县/市）</label>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="controls">
+                                <!-- Multiple Radios -->
+                                <label class="radio">
+                                    <input type="radio" value="1 本地农业" name="hukou">
+                                    1 本地农业
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="2 本地非农业" name="hukou">
+                                    2 本地非农业
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="3 外地农业" name="hukou">
+                                    3 外地农业
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="4 外地非农业" name="hukou">
+                                    4 外地非农业
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="9 保密" name="hukou">
+                                    9 保密
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您的宗教信仰情况是？</label>
+                        </div>
+                        <div class="col-xs-9">
+                            <div class="controls">
+                                <!-- Multiple Radios -->
+                                <label class="radio">
+                                    <input type="radio" value="1 佛教" name="religion">
+                                    1佛教
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="2 道教" name="religion">
+                                    2道教
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="3 伊斯兰教" name="religion">
+                                    3伊斯兰教
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="4 基督教/天主教" name="religion">
+                                    4基督教/天主教
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="5 其他教派" name="religion">
+                                    5其他教派
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="6 不信教" name="religion">
+                                    6不信教
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="7 保密" name="religion">
+                                    7 保密
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br><br><br>
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您的当前职业或最后一份职业是？</label>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="controls">
+                                <!-- Multiple Radios -->
+                                <label class="radio">
+                                    <input type="radio" value="1 机关、企事业单位负责人       " name="occupation">
+                                    1 机关、企事业单位负责人
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="2 单位中层管理人员（部门经理/主管/主任等）" name="occupation">
+                                    2 单位中层管理人员（部门经理/主管/主任等）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="3 基层管理人员/一般管理人员（工段长、组长等）" name="occupation">
+                                    3 基层管理人员/一般管理人员（工段长、组长等）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="4 中级、高级职称专业技术人员    " name="occupation">
+                                    4 中级、高级职称专业技术人员
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="5 其他专业技术人员/一般技术员" name="occupation">
+                                    5 其他专业技术人员/一般技术员
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="6 一般机关干部/公务员           " name="occupation">
+                                    6 一般机关干部/公务员
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="7 经济业务人员（如会计、金融、营销、中介等）" name="occupation">
+                                    7 经济业务人员（如会计、金融、营销、中介等）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="8 企事业单位办公室职员/办事人员 " name="occupation">
+                                    8 企事业单位办公室职员/办事人员
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="9 商业、服务业人员（如服务员、售货员）" name="occupation">
+                                    9 商业、服务业人员（如服务员、售货员）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="10 产业工人（技术工种） " name="occupation">
+                                    10 产业工人（技术工种）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="11产业工人（非技术工种）" name="occupation">
+                                    11产业工人（非技术工种）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="12 农民/农林牧渔业人员   " name="occupation">
+                                    12 农民/农林牧渔业人员
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="13 军人/警察/消防人员" name="occupation">
+                                    13 军人/警察/消防人员
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="14 私营业主（雇工8人或以上）  " name="occupation">
+                                    14 私营业主（雇工8人或以上）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="15 个体户/小业主（不雇工或雇工8人以下）" name="occupation">
+                                    15 个体户/小业主（不雇工或雇工8人以下）
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="16 自由职业者  " name="occupation">
+                                    16 自由职业者
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="17 打零工  " name="occupation">
+                                    17 打零工
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="18其它    " name="occupation">
+                                    18其它
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" value="19保密 " name="occupation">
+                                    19保密
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您个人上个月（或上次就业）的收入是多少钱？（家庭帮工不填）</label>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="controls">
+                                <!-- Inline Radios -->
+                                <label class="radio inline">
+                                    <input type="radio" value="1 4000以下   " name="personal_salary">
+                                    4000以下
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="2 4001-6000    " name="personal_salary">
+                                    4001-6000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="3 6001-8000  " name="personal_salary">
+                                    6001-8000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="4 8001-10000  " name="personal_salary">
+                                    8001-10000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="5 10001-20000    " name="personal_salary">
+                                    10001-20000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="6 20001-50000 " name="personal_salary">
+                                    20001-50000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="7 50000以上" name="personal_salary">
+                                    50000以上
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <label class="choice_label">您家在本地的每月总收入是多少钱？(包括工资收入、经营收入、财产收入、转移收入等）（税后纯收入）</label>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="controls">
+                                <!-- Inline Radios -->
+                                <label class="radio inline">
+                                    <input type="radio" value="1 4000以下   " name="total_venue">
+                                    4000以下
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="2 4001-6000    " name="total_venue">
+                                    4001-6000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="3 6001-8000  " name="total_venue">
+                                    6001-8000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="4 8001-10000  " name="total_venue">
+                                    8001-10000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="5 10001-20000    " name="total_venue">
+                                    10001-20000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="6 20001-50000 " name="total_venue">
+                                    20001-50000
+                                </label>
+                                <label class="radio inline">
+                                    <input type="radio" value="7 50000以上" name="total_venue">
+                                    50000以上
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+
+                <div class="control-group">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <!-- Select Basic -->
+                            <label class="choice_label">您家的社会经济地位在本地大体属于哪个层次？</label>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="controls">
+                                <select class="input-xlarge" name="social_status">
+                                    <option name="social_status">1 上层</option>
+                                    <option name="social_status">2 中上层</option>
+                                    <option name="social_status">3 中层</option>
+                                    <option name="social_status">4 中下层</option>
+                                    <option name="social_status">5 下层</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br><br><br>
+
+                <div class="row">
+                    <div class="col-xs-6"></div>
+                    <div class="col-xs-3">
+                        <button type="submit" style="" class="btn btn-primary btn-lg btn-block">提交</button>
+                    </div>
+                    <div class="col-xs-3"></div>
+                </div>
+            </form>
+        </div>
+    </div>
 
 </body>
+</html>
